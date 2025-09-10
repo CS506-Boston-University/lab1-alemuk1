@@ -49,7 +49,7 @@ class Add:
         # Should evaluate both operands and return their sum
         left = self.p1.evaluate(x_value)
         right = self.p2.evaluate(x_value)
-        return left.i + right.i
+        return Int(left.i + right.i)
         pass
 
     def simplify(self):
